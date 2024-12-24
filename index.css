@@ -1,0 +1,155 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15.5px;
+}
+/* title */
+.title {
+  color: white;
+  padding: 5px 10px;
+  background: black;
+  border-radius: 2px;
+}
+/* picture */
+.pic {
+  padding-top: 30px;
+}
+/* hi-jason */
+.hijason {
+  width: 250px;
+  height: 120px;
+  float: right;
+  padding-right: 400px;
+  padding-top: 30px;
+}
+.THERE {
+  font-size: 8px;
+  width: 75px;
+  height: 20px;
+}
+.JASON {
+  width: 200px;
+  height: 80px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.num-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.num {
+  font-family: monospace;
+  color: indianred;
+  font-size: x-large;
+}
+.text {
+  color: black;
+  font-size: xx-small;
+}
+.box {
+  width: 65px;
+  height: 50px;
+}
+/* about-me */
+body {
+  width: 900px;
+  padding: auto;
+  margin: 20px auto;
+}
+.aboutme,
+.coreskills,
+.otherskills,
+.workexperience {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: smaller;
+  padding-bottom: 2px;
+  border-bottom: solid 2px red;
+}
+.lorem {
+  width: 900px;
+  height: 200px;
+}
+/* button */
+button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1.5px solid red;
+  margin: auto;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: red;
+  background-color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.core-other {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 40px;
+}
+.section {
+  flex: 1;
+  justify-content: flex-start;
+}
+.section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.section ul li {
+  border: solid gray 1px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 10px;
+  color: #555;
+}
+.experience {
+  margin-top: 60px;
+}
+
+.workexp {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.work1,
+.work2 {
+  flex: 2;
+}
+.year {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.matrix,
+.lexind {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #555;
+}
+.developer,
+.Senior {
+  font-size: 3px;
+  margin-bottom: 30px;
+}
+
+.worktext {
+  margin: 10px 0 15px;
+  color: #555;
+}
+
+.list {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #555;
+}
